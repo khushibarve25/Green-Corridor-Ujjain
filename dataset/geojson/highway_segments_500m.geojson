@@ -1,0 +1,1567 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.78881175989675,
+              23.176551384009862
+            ],
+            [
+              75.7896004344982,
+              23.172161709952423
+            ],
+            [
+              75.7889769147047,
+              23.1720589419327
+            ],
+            [
+              75.78818824010325,
+              23.17644861599014
+            ],
+            [
+              75.78881175989675,
+              23.176551384009862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 1,
+        "chainage": "KM 0.0 - 0.5",
+        "start_km": 0.0,
+        "end_km": 0.5,
+        "canopy_percentage": 23.4,
+        "tree_count": 50,
+        "median_shrub_count": 75,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.38,
+        "planting_priority": 2,
+        "slots_available": 8,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 23.4%). Plant 8 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Azadirachta indica",
+        "dominant_share_pct": 16.0,
+        "diversity_alert": false,
+        "carbon_stock_tc": 9.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7896004344982,
+              23.172161709952423
+            ],
+            [
+              75.790377894423,
+              23.167675562550937
+            ],
+            [
+              75.78975437462951,
+              23.167572794531214
+            ],
+            [
+              75.7889769147047,
+              23.1720589419327
+            ],
+            [
+              75.7896004344982,
+              23.172161709952423
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 2,
+        "chainage": "KM 0.5 - 1.0",
+        "start_km": 0.5,
+        "end_km": 1.0,
+        "canopy_percentage": 29.0,
+        "tree_count": 94,
+        "median_shrub_count": 32,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.17,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 29.0%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Millettia pinnata",
+        "dominant_share_pct": 22.3,
+        "diversity_alert": false,
+        "carbon_stock_tc": 16.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.790377894423,
+              23.167675562550937
+            ],
+            [
+              75.79113724871036,
+              23.163320712250318
+            ],
+            [
+              75.79051372891686,
+              23.163217944230595
+            ],
+            [
+              75.78975437462951,
+              23.167572794531214
+            ],
+            [
+              75.790377894423,
+              23.167675562550937
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 3,
+        "chainage": "KM 1.0 - 1.5",
+        "start_km": 1.0,
+        "end_km": 1.5,
+        "canopy_percentage": 13.9,
+        "tree_count": 24,
+        "median_shrub_count": 47,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.57,
+        "planting_priority": 2,
+        "slots_available": 57,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 13.9%). Plant 57 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 29.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 4.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79113724871036,
+              23.163320712250318
+            ],
+            [
+              75.79190140805801,
+              23.158869845204304
+            ],
+            [
+              75.79127788826452,
+              23.15876707718458
+            ],
+            [
+              75.79051372891686,
+              23.163217944230595
+            ],
+            [
+              75.79113724871036,
+              23.163320712250318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 4,
+        "chainage": "KM 1.5 - 2.0",
+        "start_km": 1.5,
+        "end_km": 2.0,
+        "canopy_percentage": 6.1,
+        "tree_count": 15,
+        "median_shrub_count": 35,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.81,
+        "planting_priority": 1,
+        "slots_available": 98,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 6.1%). Plant 98 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 33.3,
+        "diversity_alert": true,
+        "carbon_stock_tc": 2.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79190140805801,
+              23.158869845204304
+            ],
+            [
+              75.79261577439186,
+              23.154319277396876
+            ],
+            [
+              75.79199225459837,
+              23.154216509377154
+            ],
+            [
+              75.79127788826452,
+              23.15876707718458
+            ],
+            [
+              75.79190140805801,
+              23.158869845204304
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 5,
+        "chainage": "KM 2.0 - 2.5",
+        "start_km": 2.0,
+        "end_km": 2.5,
+        "canopy_percentage": 6.9,
+        "tree_count": 15,
+        "median_shrub_count": 58,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.78,
+        "planting_priority": 1,
+        "slots_available": 94,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 6.9%). Plant 94 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Phoenix sylvestris",
+        "dominant_share_pct": 20.0,
+        "diversity_alert": false,
+        "carbon_stock_tc": 2.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79261577439186,
+              23.154319277396876
+            ],
+            [
+              75.79344948375389,
+              23.149811880976312
+            ],
+            [
+              75.7928259639604,
+              23.14970911295659
+            ],
+            [
+              75.79199225459837,
+              23.154216509377154
+            ],
+            [
+              75.79261577439186,
+              23.154319277396876
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 6,
+        "chainage": "KM 2.5 - 3.0",
+        "start_km": 2.5,
+        "end_km": 3.0,
+        "canopy_percentage": 12.4,
+        "tree_count": 24,
+        "median_shrub_count": 68,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.6,
+        "planting_priority": 2,
+        "slots_available": 65,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 12.4%). Plant 65 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Ficus religiosa",
+        "dominant_share_pct": 33.3,
+        "diversity_alert": true,
+        "carbon_stock_tc": 4.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79344948375389,
+              23.149811880976312
+            ],
+            [
+              75.79422980073264,
+              23.145417965720984
+            ],
+            [
+              75.79360628093914,
+              23.14531519770126
+            ],
+            [
+              75.7928259639604,
+              23.14970911295659
+            ],
+            [
+              75.79344948375389,
+              23.149811880976312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 7,
+        "chainage": "KM 3.0 - 3.5",
+        "start_km": 3.0,
+        "end_km": 3.5,
+        "canopy_percentage": 10.8,
+        "tree_count": 41,
+        "median_shrub_count": 53,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.63,
+        "planting_priority": 2,
+        "slots_available": 73,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 10.8%). Plant 73 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 17.1,
+        "diversity_alert": false,
+        "carbon_stock_tc": 7.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79422980073264,
+              23.145417965720984
+            ],
+            [
+              75.79492966643176,
+              23.140969382868313
+            ],
+            [
+              75.79430614663826,
+              23.14086661484859
+            ],
+            [
+              75.79360628093914,
+              23.14531519770126
+            ],
+            [
+              75.79422980073264,
+              23.145417965720984
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 8,
+        "chainage": "KM 3.5 - 4.0",
+        "start_km": 3.5,
+        "end_km": 4.0,
+        "canopy_percentage": 3.6,
+        "tree_count": 4,
+        "median_shrub_count": 33,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.88,
+        "planting_priority": 1,
+        "slots_available": 111,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 3.6%). Plant 111 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Ficus benghalensis",
+        "dominant_share_pct": 50.0,
+        "diversity_alert": true,
+        "carbon_stock_tc": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79492966643176,
+              23.140969382868313
+            ],
+            [
+              75.79557872377555,
+              23.136570573594625
+            ],
+            [
+              75.79495520398206,
+              23.136467805574902
+            ],
+            [
+              75.79430614663826,
+              23.14086661484859
+            ],
+            [
+              75.79492966643176,
+              23.140969382868313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 9,
+        "chainage": "KM 4.0 - 4.5",
+        "start_km": 4.0,
+        "end_km": 4.5,
+        "canopy_percentage": 28.2,
+        "tree_count": 70,
+        "median_shrub_count": 54,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.19,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 28.2%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 15.7,
+        "diversity_alert": false,
+        "carbon_stock_tc": 12.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79557872377555,
+              23.136570573594625
+            ],
+            [
+              75.79622948831471,
+              23.132116727114777
+            ],
+            [
+              75.79560596852122,
+              23.132013959095055
+            ],
+            [
+              75.79495520398206,
+              23.136467805574902
+            ],
+            [
+              75.79557872377555,
+              23.136570573594625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 10,
+        "chainage": "KM 4.5 - 5.0",
+        "start_km": 4.5,
+        "end_km": 5.0,
+        "canopy_percentage": 32.3,
+        "tree_count": 50,
+        "median_shrub_count": 37,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.1,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 32.3%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Eucalyptus globulus",
+        "dominant_share_pct": 22.0,
+        "diversity_alert": false,
+        "carbon_stock_tc": 9.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79622948831471,
+              23.132116727114777
+            ],
+            [
+              75.79691000220038,
+              23.127642878481282
+            ],
+            [
+              75.79628648240688,
+              23.12754011046156
+            ],
+            [
+              75.79560596852122,
+              23.132013959095055
+            ],
+            [
+              75.79622948831471,
+              23.132116727114777
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 11,
+        "chainage": "KM 5.0 - 5.5",
+        "start_km": 5.0,
+        "end_km": 5.5,
+        "canopy_percentage": 18.5,
+        "tree_count": 30,
+        "median_shrub_count": 55,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.48,
+        "planting_priority": 2,
+        "slots_available": 33,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 18.5%). Plant 33 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 23.3,
+        "diversity_alert": false,
+        "carbon_stock_tc": 5.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79691000220038,
+              23.127642878481282
+            ],
+            [
+              75.79760387737485,
+              23.123265210873846
+            ],
+            [
+              75.79698035758136,
+              23.123162442854124
+            ],
+            [
+              75.79628648240688,
+              23.12754011046156
+            ],
+            [
+              75.79691000220038,
+              23.127642878481282
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 12,
+        "chainage": "KM 5.5 - 6.0",
+        "start_km": 5.5,
+        "end_km": 6.0,
+        "canopy_percentage": 6.1,
+        "tree_count": 12,
+        "median_shrub_count": 32,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.81,
+        "planting_priority": 1,
+        "slots_available": 98,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 6.1%). Plant 98 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Ficus religiosa",
+        "dominant_share_pct": 25.0,
+        "diversity_alert": false,
+        "carbon_stock_tc": 2.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79760387737485,
+              23.123265210873846
+            ],
+            [
+              75.79843311011135,
+              23.118758358415366
+            ],
+            [
+              75.79780959031785,
+              23.118655590395644
+            ],
+            [
+              75.79698035758136,
+              23.123162442854124
+            ],
+            [
+              75.79760387737485,
+              23.123265210873846
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 13,
+        "chainage": "KM 6.0 - 6.5",
+        "start_km": 6.0,
+        "end_km": 6.5,
+        "canopy_percentage": 7.2,
+        "tree_count": 18,
+        "median_shrub_count": 57,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.78,
+        "planting_priority": 1,
+        "slots_available": 92,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 7.2%). Plant 92 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 22.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 3.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79843311011135,
+              23.118758358415366
+            ],
+            [
+              75.79914832374028,
+              23.11438721136013
+            ],
+            [
+              75.79852480394679,
+              23.114284443340406
+            ],
+            [
+              75.79780959031785,
+              23.118655590395644
+            ],
+            [
+              75.79843311011135,
+              23.118758358415366
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 14,
+        "chainage": "KM 6.5 - 7.0",
+        "start_km": 6.5,
+        "end_km": 7.0,
+        "canopy_percentage": 7.4,
+        "tree_count": 5,
+        "median_shrub_count": 44,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.77,
+        "planting_priority": 1,
+        "slots_available": 91,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 7.4%). Plant 91 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 40.0,
+        "diversity_alert": true,
+        "carbon_stock_tc": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79914832374028,
+              23.11438721136013
+            ],
+            [
+              75.79997666261673,
+              23.109934685291684
+            ],
+            [
+              75.79935314282324,
+              23.10983191727196
+            ],
+            [
+              75.79852480394679,
+              23.114284443340406
+            ],
+            [
+              75.79914832374028,
+              23.11438721136013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 15,
+        "chainage": "KM 7.0 - 7.5",
+        "start_km": 7.0,
+        "end_km": 7.5,
+        "canopy_percentage": 11.6,
+        "tree_count": 40,
+        "median_shrub_count": 42,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.62,
+        "planting_priority": 2,
+        "slots_available": 69,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 11.6%). Plant 69 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Azadirachta indica",
+        "dominant_share_pct": 17.5,
+        "diversity_alert": false,
+        "carbon_stock_tc": 7.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.79997666261673,
+              23.109934685291684
+            ],
+            [
+              75.80068817203741,
+              23.10550122251029
+            ],
+            [
+              75.80006465224392,
+              23.10539845449057
+            ],
+            [
+              75.79935314282324,
+              23.10983191727196
+            ],
+            [
+              75.79997666261673,
+              23.109934685291684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 16,
+        "chainage": "KM 7.5 - 8.0",
+        "start_km": 7.5,
+        "end_km": 8.0,
+        "canopy_percentage": 16.0,
+        "tree_count": 37,
+        "median_shrub_count": 53,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.53,
+        "planting_priority": 2,
+        "slots_available": 46,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 16.0%). Plant 46 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Ficus religiosa",
+        "dominant_share_pct": 16.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 6.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80068817203741,
+              23.10550122251029
+            ],
+            [
+              75.80150840136447,
+              23.100955015246555
+            ],
+            [
+              75.80088488157098,
+              23.100852247226833
+            ],
+            [
+              75.80006465224392,
+              23.10539845449057
+            ],
+            [
+              75.80068817203741,
+              23.10550122251029
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 17,
+        "chainage": "KM 8.0 - 8.5",
+        "start_km": 8.0,
+        "end_km": 8.5,
+        "canopy_percentage": 11.9,
+        "tree_count": 40,
+        "median_shrub_count": 66,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.61,
+        "planting_priority": 2,
+        "slots_available": 67,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 11.9%). Plant 67 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 20.0,
+        "diversity_alert": false,
+        "carbon_stock_tc": 7.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80150840136447,
+              23.100955015246555
+            ],
+            [
+              75.80221377353185,
+              23.096531466369306
+            ],
+            [
+              75.80159025373835,
+              23.096428698349584
+            ],
+            [
+              75.80088488157098,
+              23.100852247226833
+            ],
+            [
+              75.80150840136447,
+              23.100955015246555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 18,
+        "chainage": "KM 8.5 - 9.0",
+        "start_km": 8.5,
+        "end_km": 9.0,
+        "canopy_percentage": 30.1,
+        "tree_count": 67,
+        "median_shrub_count": 46,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.14,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 30.1%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Ficus benghalensis",
+        "dominant_share_pct": 19.4,
+        "diversity_alert": false,
+        "carbon_stock_tc": 12.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80221377353185,
+              23.096531466369306
+            ],
+            [
+              75.80292270943609,
+              23.091989527493723
+            ],
+            [
+              75.8022991896426,
+              23.091886759474
+            ],
+            [
+              75.80159025373835,
+              23.096428698349584
+            ],
+            [
+              75.80221377353185,
+              23.096531466369306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 19,
+        "chainage": "KM 9.0 - 9.5",
+        "start_km": 9.0,
+        "end_km": 9.5,
+        "canopy_percentage": 33.2,
+        "tree_count": 85,
+        "median_shrub_count": 30,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.1,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 33.2%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 17.6,
+        "diversity_alert": false,
+        "carbon_stock_tc": 15.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80292270943609,
+              23.091989527493723
+            ],
+            [
+              75.80356544879156,
+              23.08756582424321
+            ],
+            [
+              75.80294192899807,
+              23.087463056223488
+            ],
+            [
+              75.8022991896426,
+              23.091886759474
+            ],
+            [
+              75.80292270943609,
+              23.091989527493723
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 20,
+        "chainage": "KM 9.5 - 10.0",
+        "start_km": 9.5,
+        "end_km": 10.0,
+        "canopy_percentage": 15.7,
+        "tree_count": 43,
+        "median_shrub_count": 59,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.54,
+        "planting_priority": 2,
+        "slots_available": 48,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 15.7%). Plant 48 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Azadirachta indica",
+        "dominant_share_pct": 23.3,
+        "diversity_alert": false,
+        "carbon_stock_tc": 7.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80356544879156,
+              23.08756582424321
+            ],
+            [
+              75.8042402021273,
+              23.08319156416586
+            ],
+            [
+              75.80361668233381,
+              23.083088796146136
+            ],
+            [
+              75.80294192899807,
+              23.087463056223488
+            ],
+            [
+              75.80356544879156,
+              23.08756582424321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 21,
+        "chainage": "KM 10.0 - 10.5",
+        "start_km": 10.0,
+        "end_km": 10.5,
+        "canopy_percentage": 6.1,
+        "tree_count": 7,
+        "median_shrub_count": 67,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.81,
+        "planting_priority": 1,
+        "slots_available": 98,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 6.1%). Plant 98 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 42.9,
+        "diversity_alert": true,
+        "carbon_stock_tc": 1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8042402021273,
+              23.08319156416586
+            ],
+            [
+              75.80501704003731,
+              23.078832712835634
+            ],
+            [
+              75.80439352024382,
+              23.078729944815912
+            ],
+            [
+              75.80361668233381,
+              23.083088796146136
+            ],
+            [
+              75.8042402021273,
+              23.08319156416586
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 22,
+        "chainage": "KM 10.5 - 11.0",
+        "start_km": 10.5,
+        "end_km": 11.0,
+        "canopy_percentage": 3.7,
+        "tree_count": 7,
+        "median_shrub_count": 65,
+        "shade_classification": "Critical Shade Gap (\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a \u0915\u094d\u0937\u0947\u0924\u094d\u0930)",
+        "heat_risk_index": 0.88,
+        "planting_priority": 1,
+        "slots_available": 110,
+        "recommended_species": [
+          "Azadirachta indica (Neem)",
+          "Millettia pinnata (Karanj)",
+          "Syzygium cumini (Jamun)"
+        ],
+        "recommendation_text": "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u092a (Canopy 3.7%). Plant 110 native trees (Neem, Karanj, Jamun). Retain low median shrubs.",
+        "dominant_species": "Cassia fistula",
+        "dominant_share_pct": 28.6,
+        "diversity_alert": false,
+        "carbon_stock_tc": 1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80501704003731,
+              23.078832712835634
+            ],
+            [
+              75.80574276983586,
+              23.07438717028267
+            ],
+            [
+              75.80511925004237,
+              23.074284402262947
+            ],
+            [
+              75.80439352024382,
+              23.078729944815912
+            ],
+            [
+              75.80501704003731,
+              23.078832712835634
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 23,
+        "chainage": "KM 11.0 - 11.5",
+        "start_km": 11.0,
+        "end_km": 11.5,
+        "canopy_percentage": 19.6,
+        "tree_count": 22,
+        "median_shrub_count": 37,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.46,
+        "planting_priority": 2,
+        "slots_available": 27,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 19.6%). Plant 27 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Eucalyptus globulus",
+        "dominant_share_pct": 18.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80574276983586,
+              23.07438717028267
+            ],
+            [
+              75.80651564022074,
+              23.070009615363414
+            ],
+            [
+              75.80589212042725,
+              23.06990684734369
+            ],
+            [
+              75.80511925004237,
+              23.074284402262947
+            ],
+            [
+              75.80574276983586,
+              23.07438717028267
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 24,
+        "chainage": "KM 11.5 - 12.0",
+        "start_km": 11.5,
+        "end_km": 12.0,
+        "canopy_percentage": 12.2,
+        "tree_count": 36,
+        "median_shrub_count": 43,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.61,
+        "planting_priority": 2,
+        "slots_available": 66,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 12.2%). Plant 66 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Ficus benghalensis",
+        "dominant_share_pct": 22.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 6.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80651564022074,
+              23.070009615363414
+            ],
+            [
+              75.80729802678091,
+              23.06547219093167
+            ],
+            [
+              75.80667450698742,
+              23.065369422911946
+            ],
+            [
+              75.80589212042725,
+              23.06990684734369
+            ],
+            [
+              75.80651564022074,
+              23.070009615363414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 25,
+        "chainage": "KM 12.0 - 12.5",
+        "start_km": 12.0,
+        "end_km": 12.5,
+        "canopy_percentage": 16.9,
+        "tree_count": 41,
+        "median_shrub_count": 45,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.51,
+        "planting_priority": 2,
+        "slots_available": 42,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 16.9%). Plant 42 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Millettia pinnata",
+        "dominant_share_pct": 19.5,
+        "diversity_alert": false,
+        "carbon_stock_tc": 7.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80729802678091,
+              23.06547219093167
+            ],
+            [
+              75.8079688864204,
+              23.061088464018436
+            ],
+            [
+              75.8073453666269,
+              23.060985695998713
+            ],
+            [
+              75.80667450698742,
+              23.065369422911946
+            ],
+            [
+              75.80729802678091,
+              23.06547219093167
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 26,
+        "chainage": "KM 12.5 - 13.0",
+        "start_km": 12.5,
+        "end_km": 13.0,
+        "canopy_percentage": 19.2,
+        "tree_count": 35,
+        "median_shrub_count": 45,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.47,
+        "planting_priority": 2,
+        "slots_available": 30,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 19.2%). Plant 30 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Ficus religiosa",
+        "dominant_share_pct": 25.7,
+        "diversity_alert": false,
+        "carbon_stock_tc": 6.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8079688864204,
+              23.061088464018436
+            ],
+            [
+              75.8087527870345,
+              23.056623488273036
+            ],
+            [
+              75.80812926724101,
+              23.056520720253314
+            ],
+            [
+              75.8073453666269,
+              23.060985695998713
+            ],
+            [
+              75.8079688864204,
+              23.061088464018436
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 27,
+        "chainage": "KM 13.0 - 13.5",
+        "start_km": 13.0,
+        "end_km": 13.5,
+        "canopy_percentage": 12.1,
+        "tree_count": 29,
+        "median_shrub_count": 48,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.61,
+        "planting_priority": 2,
+        "slots_available": 67,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 12.1%). Plant 67 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Azadirachta indica",
+        "dominant_share_pct": 24.1,
+        "diversity_alert": false,
+        "carbon_stock_tc": 5.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8087527870345,
+              23.056623488273036
+            ],
+            [
+              75.8094691086173,
+              23.052265868250394
+            ],
+            [
+              75.8088455888238,
+              23.052163100230672
+            ],
+            [
+              75.80812926724101,
+              23.056520720253314
+            ],
+            [
+              75.8087527870345,
+              23.056623488273036
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 28,
+        "chainage": "KM 13.5 - 14.0",
+        "start_km": 13.5,
+        "end_km": 14.0,
+        "canopy_percentage": 28.2,
+        "tree_count": 52,
+        "median_shrub_count": 47,
+        "shade_classification": "High Shade (\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.19,
+        "planting_priority": 3,
+        "slots_available": 0,
+        "recommended_species": [
+          "Maintenance & Protection"
+        ],
+        "recommendation_text": "\u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0939\u0930\u093f\u0924 \u0906\u0935\u0930\u0923 (Canopy 28.2%). Green corridor established. Focus on canopy pruning and soil mulch.",
+        "dominant_species": "Phoenix sylvestris",
+        "dominant_share_pct": 17.3,
+        "diversity_alert": false,
+        "carbon_stock_tc": 9.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8094691086173,
+              23.052265868250394
+            ],
+            [
+              75.81011643599446,
+              23.04785105175311
+            ],
+            [
+              75.80949291620097,
+              23.047748283733387
+            ],
+            [
+              75.8088455888238,
+              23.052163100230672
+            ],
+            [
+              75.8094691086173,
+              23.052265868250394
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 29,
+        "chainage": "KM 14.0 - 14.5",
+        "start_km": 14.0,
+        "end_km": 14.5,
+        "canopy_percentage": 13.7,
+        "tree_count": 33,
+        "median_shrub_count": 38,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.58,
+        "planting_priority": 2,
+        "slots_available": 58,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 13.7%). Plant 58 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Ficus religiosa",
+        "dominant_share_pct": 24.2,
+        "diversity_alert": false,
+        "carbon_stock_tc": 5.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.81011643599446,
+              23.04785105175311
+            ],
+            [
+              75.81078019832783,
+              23.043332698567177
+            ],
+            [
+              75.81015667853434,
+              23.043229930547454
+            ],
+            [
+              75.80949291620097,
+              23.047748283733387
+            ],
+            [
+              75.81011643599446,
+              23.04785105175311
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": 30,
+        "chainage": "KM 14.5 - 15.0",
+        "start_km": 14.5,
+        "end_km": 15.0,
+        "canopy_percentage": 12.6,
+        "tree_count": 34,
+        "median_shrub_count": 44,
+        "shade_classification": "Moderate Shade (\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e)",
+        "heat_risk_index": 0.6,
+        "planting_priority": 2,
+        "slots_available": 64,
+        "recommended_species": [
+          "Ficus religiosa (Peepal)",
+          "Millettia pinnata (Karanj)"
+        ],
+        "recommendation_text": "\u092e\u0927\u094d\u092f\u092e \u091b\u093e\u092f\u093e (Canopy 12.6%). Plant 64 shade trees. Diversify with Peepal and Banyan at rest points.",
+        "dominant_species": "Syzygium cumini",
+        "dominant_share_pct": 26.5,
+        "diversity_alert": false,
+        "carbon_stock_tc": 6.1
+      }
+    }
+  ]
+}

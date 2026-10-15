@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.789019,
+          23.174326
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-001",
+        "segment_id": 1,
+        "chainage": "KM 0.0",
+        "type": "police",
+        "icon": "shield",
+        "name_en": "Simhastha Pilgrim Assistance Post #1",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u092f\u093e\u0924\u094d\u0930\u0940 \u0938\u0939\u093e\u092f\u0924\u093e \u090f\u0935\u0902 \u092a\u0941\u0932\u093f\u0938 \u091a\u094c\u0915\u0940 #1",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.790321,
+          23.165426
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-002",
+        "segment_id": 3,
+        "chainage": "KM 1.0",
+        "type": "medical",
+        "icon": "cross",
+        "name_en": "Emergency First Aid Camp #2",
+        "name_hi": "\u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915 \u091a\u093f\u0915\u093f\u0924\u094d\u0938\u093e \u090f\u0935\u0902 \u0913\u0906\u0930\u090f\u0938 \u0915\u0947\u0902\u0926\u094d\u0930 #2",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.791822,
+          23.156523
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-003",
+        "segment_id": 5,
+        "chainage": "KM 2.0",
+        "type": "shade_hub",
+        "icon": "tent",
+        "name_en": "Mahakal Chhaya Rest Shed #3",
+        "name_hi": "\u092e\u0939\u093e\u0915\u093e\u0932 \u091b\u093e\u092f\u093e \u090f\u0935\u0902 \u0935\u093f\u0936\u094d\u0930\u093e\u092e \u0938\u094d\u0925\u0932 #3",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.793653,
+          23.147584
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-004",
+        "segment_id": 7,
+        "chainage": "KM 3.0",
+        "type": "medical",
+        "icon": "cross",
+        "name_en": "Emergency First Aid Camp #4",
+        "name_hi": "\u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915 \u091a\u093f\u0915\u093f\u0924\u094d\u0938\u093e \u090f\u0935\u0902 \u0913\u0906\u0930\u090f\u0938 \u0915\u0947\u0902\u0926\u094d\u0930 #4",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.795067,
+          23.138739
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-005",
+        "segment_id": 9,
+        "chainage": "KM 4.0",
+        "type": "toilet",
+        "icon": "bath",
+        "name_en": "Public Sanitation Block #5",
+        "name_hi": "\u0938\u0941\u0932\u092d \u091c\u0928 \u0938\u0941\u0935\u093f\u0927\u093e \u090f\u0935\u0902 \u0936\u094c\u091a\u093e\u0932\u092f #5",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.796133,
+          23.129808
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-006",
+        "segment_id": 11,
+        "chainage": "KM 5.0",
+        "type": "water",
+        "icon": "droplet",
+        "name_en": "Simhastha Seva Pyaau Booth #6",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u0938\u0947\u0935\u093e \u0936\u0940\u0924\u0932 \u091c\u0932 \u092a\u094d\u092f\u093e\u090a #6",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.797831,
+          23.120981
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-007",
+        "segment_id": 13,
+        "chainage": "KM 6.0",
+        "type": "shade_hub",
+        "icon": "tent",
+        "name_en": "Mahakal Chhaya Rest Shed #7",
+        "name_hi": "\u092e\u0939\u093e\u0915\u093e\u0932 \u091b\u093e\u092f\u093e \u090f\u0935\u0902 \u0935\u093f\u0936\u094d\u0930\u093e\u092e \u0938\u094d\u0925\u0932 #7",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.799375,
+          23.11213
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-008",
+        "segment_id": 15,
+        "chainage": "KM 7.0",
+        "type": "shade_hub",
+        "icon": "tent",
+        "name_en": "Mahakal Chhaya Rest Shed #8",
+        "name_hi": "\u092e\u0939\u093e\u0915\u093e\u0932 \u091b\u093e\u092f\u093e \u090f\u0935\u0902 \u0935\u093f\u0936\u094d\u0930\u093e\u092e \u0938\u094d\u0925\u0932 #8",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.800911,
+          23.103197
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-009",
+        "segment_id": 17,
+        "chainage": "KM 8.0",
+        "type": "water",
+        "icon": "droplet",
+        "name_en": "Simhastha Seva Pyaau Booth #9",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u0938\u0947\u0935\u093e \u0936\u0940\u0924\u0932 \u091c\u0932 \u092a\u094d\u092f\u093e\u090a #9",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.802381,
+          23.09423
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-010",
+        "segment_id": 19,
+        "chainage": "KM 9.0",
+        "type": "water",
+        "icon": "droplet",
+        "name_en": "Simhastha Seva Pyaau Booth #10",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u0938\u0947\u0935\u093e \u0936\u0940\u0924\u0932 \u091c\u0932 \u092a\u094d\u092f\u093e\u090a #10",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.803716,
+          23.085348
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-011",
+        "segment_id": 21,
+        "chainage": "KM 10.0",
+        "type": "police",
+        "icon": "shield",
+        "name_en": "Simhastha Pilgrim Assistance Post #11",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u092f\u093e\u0924\u094d\u0930\u0940 \u0938\u0939\u093e\u092f\u0924\u093e \u090f\u0935\u0902 \u092a\u0941\u0932\u093f\u0938 \u091a\u094c\u0915\u0940 #11",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.804943,
+          23.076538
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-012",
+        "segment_id": 23,
+        "chainage": "KM 11.0",
+        "type": "police",
+        "icon": "shield",
+        "name_en": "Simhastha Pilgrim Assistance Post #12",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u092f\u093e\u0924\u094d\u0930\u0940 \u0938\u0939\u093e\u092f\u0924\u093e \u090f\u0935\u0902 \u092a\u0941\u0932\u093f\u0938 \u091a\u094c\u0915\u0940 #12",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.80672,
+          23.06771
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-013",
+        "segment_id": 25,
+        "chainage": "KM 12.0",
+        "type": "medical",
+        "icon": "cross",
+        "name_en": "Emergency First Aid Camp #13",
+        "name_hi": "\u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915 \u091a\u093f\u0915\u093f\u0924\u094d\u0938\u093e \u090f\u0935\u0902 \u0913\u0906\u0930\u090f\u0938 \u0915\u0947\u0902\u0926\u094d\u0930 #13",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.807924,
+          23.058784
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-014",
+        "segment_id": 27,
+        "chainage": "KM 13.0",
+        "type": "water",
+        "icon": "droplet",
+        "name_en": "Simhastha Seva Pyaau Booth #14",
+        "name_hi": "\u0938\u093f\u0902\u0939\u0938\u094d\u0925 \u0938\u0947\u0935\u093e \u0936\u0940\u0924\u0932 \u091c\u0932 \u092a\u094d\u092f\u093e\u090a #14",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.809356,
+          23.049987
+        ]
+      },
+      "properties": {
+        "amenity_id": "AMN-015",
+        "segment_id": 29,
+        "chainage": "KM 14.0",
+        "type": "toilet",
+        "icon": "bath",
+        "name_en": "Public Sanitation Block #15",
+        "name_hi": "\u0938\u0941\u0932\u092d \u091c\u0928 \u0938\u0941\u0935\u093f\u0927\u093e \u090f\u0935\u0902 \u0936\u094c\u091a\u093e\u0932\u092f #15",
+        "status": "Operational (\u0938\u0915\u094d\u0930\u093f\u092f 24x7)",
+        "water_available": true,
+        "shade_available": true
+      }
+    }
+  ]
+}

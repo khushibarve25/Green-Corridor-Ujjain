@@ -1,0 +1,12 @@
+{
+  "corridor_name": "Ujjain\u2013Indore Highway (SH-27)",
+  "pilot_length_km": 15.0,
+  "total_segments": 30,
+  "total_trees_detected": 1060,
+  "total_median_shrubs": 1455,
+  "critical_gaps_count": 8,
+  "high_shade_count": 6,
+  "avg_canopy_coverage_pct": 15.6,
+  "amenity_points_count": 15,
+  "target_simhastha_year": 2028
+}

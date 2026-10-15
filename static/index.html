@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenCorridor Ujjain | Simhastha 2028 Green Cover & Shade AI</title>
+  <meta name="description" content="AI-Powered Tree Census, Green Cover Gap Analysis, and Shade Planning for the Ujjain–Indore Highway (Simhastha 2028).">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Application CSS -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="theme-dark">
+  <div class="app-container">
+
+    <!-- Top Navigation & View Switcher -->
+    <header class="app-header">
+      <div class="brand-group">
+        <div class="brand-icon">
+          <i data-lucide="trees"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">GreenCorridor <span class="highlight">Ujjain</span></h1>
+          <p class="brand-subtitle" id="headerSubtitle">AI-Based Tree Census & Green Cover Planning | Simhastha 2028 (SH-27)</p>
+        </div>
+      </div>
+
+      <!-- Center View Switcher Tabs -->
+      <div class="view-switcher" role="tablist">
+        <button id="tabOfficials" class="tab-btn active" role="tab" aria-selected="true">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Officials' Analytics</span>
+        </button>
+        <button id="tabPilgrim" class="tab-btn" role="tab" aria-selected="false">
+          <i data-lucide="sun-medium"></i>
+          <span id="tabPilgrimLabel">Pilgrim Shade Map (छाया मित्र)</span>
+        </button>
+      </div>
+
+      <!-- Action Utilities -->
+      <div class="header-actions">
+        <div class="simhastha-pill">
+          <span class="pulse-dot"></span>
+          <span class="countdown-text" id="simhasthaBadge">Simhastha 2028 Ready</span>
+        </div>
+        <button id="langToggle" class="lang-toggle-btn" title="Toggle Language (हिंदी / English)">
+          <i data-lucide="languages"></i>
+          <span id="langLabel">हिंदी</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Top Key Metrics Ribbon -->
+    <section class="corridor-ribbon" id="corridorRibbon">
+      <div class="metric-card">
+        <span class="metric-label" id="lblSurvey">Surveyed Corridor</span>
+        <div class="metric-val" id="valCorridorKm">15.0 <span class="unit">km</span></div>
+        <span class="metric-sub" id="lblSegments">30 segments (500m)</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label" id="lblTrees">Mature Trees Detected</span>
+        <div class="metric-val highlight-green" id="valTotalTrees">1,060</div>
+        <span class="metric-sub" id="lblAccuracy">DeepForest AI | 92% Conf.</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label" id="lblShrubs">Median Shrubs</span>
+        <div class="metric-val highlight-cyan" id="valTotalShrubs">1,455</div>
+        <span class="metric-sub" id="lblShrubDesc">Bougainvillea / Nerium</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label" id="lblCanopy">Avg Canopy Cover</span>
+        <div class="metric-val" id="valAvgCanopy">15.8%</div>
+        <span class="metric-sub" id="lblTargetCanopy">Target: 25.0%</span>
+      </div>
+      <div class="metric-card critical-alert-card">
+        <span class="metric-label" id="lblGaps">Critical Shade Gaps</span>
+        <div class="metric-val highlight-coral" id="valCriticalGaps">8 <span class="unit">zones</span></div>
+        <span class="metric-sub" id="lblGapAlert">&lt; 8% cover (High Heat Risk)</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label" id="lblCarbon">Est. Biomass Carbon</span>
+        <div class="metric-val highlight-emerald" id="valCarbonStock">190.8 <span class="unit">tC</span></div>
+        <span class="metric-sub" id="lblCarbonNote">Allometric approximation</span>
+      </div>
+    </section>
+
+    <!-- Main Dynamic Content Workspace -->
+    <main class="main-workspace">
+
+      <!-- View 1: Officials' GIS & Analytics View -->
+      <section id="viewOfficials" class="view-panel active">
+        <div class="gis-layout">
+
+          <!-- Left Map Section -->
+          <div class="map-wrapper">
+            <div id="officialsMap" class="map-container"></div>
+
+            <!-- Floating Map Legend -->
+            <div class="floating-legend">
+              <h4 class="legend-title" id="lblLegendTitle">Canopy Cover (% per 500m)</h4>
+              <div class="legend-items">
+                <div class="legend-row">
+                  <span class="legend-color high-canopy"></span>
+                  <span id="legHigh">&ge; 25% (High Shade)</span>
+                </div>
+                <div class="legend-row">
+                  <span class="legend-color mod-canopy"></span>
+                  <span id="legMod">10% – 25% (Moderate)</span>
+                </div>
+                <div class="legend-row">
+                  <span class="legend-color gap-canopy"></span>
+                  <span id="legGap">&lt; 10% (Critical Shade Gap)</span>
+                </div>
+                <div class="legend-row">
+                  <span class="legend-symbol tree-sym"></span>
+                  <span id="legCrown">Detected Crown</span>
+                </div>
+              </div>
+              <div class="legend-toggles">
+                <label class="toggle-checkbox">
+                  <input type="checkbox" id="chkShowCrowns" checked>
+                  <span id="chkCrownsLabel">Tree Crown Points</span>
+                </label>
+                <label class="toggle-checkbox">
+                  <input type="checkbox" id="chkShowAmenities" checked>
+                  <span id="chkAmenityLabel">Civic Amenities</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Map View Mode Controls -->
+            <div class="map-view-controls">
+              <button id="btnZoomFit" class="ctrl-btn" title="Fit Corridor Extent">
+                <i data-lucide="maximize-2"></i>
+              </button>
+              <button id="btnSatelliteToggle" class="ctrl-btn" title="Toggle Satellite Tiles">
+                <i data-lucide="satellite"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Sidebar: Segment Inspector & Rule Recommendations -->
+          <aside class="segment-inspector">
+            <div class="inspector-header">
+              <div>
+                <span class="badge-tag" id="inspectorChainage">KM 1.5 - 2.0</span>
+                <h3 class="inspector-title" id="inspectorTitle">Segment #4 Inspection</h3>
+              </div>
+              <div id="inspectorShadeBadge" class="shade-badge gap">Critical Gap</div>
+            </div>
+
+            <!-- Segment Metrics Grid -->
+            <div class="inspector-metrics-grid">
+              <div class="mini-stat">
+                <span class="mini-lbl" id="lblSegCanopy">Canopy Cover</span>
+                <span class="mini-val highlight-coral" id="inspectorCanopy">4.8%</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-lbl" id="lblSegTrees">Trees</span>
+                <span class="mini-val" id="inspectorTrees">14</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-lbl" id="lblSegShrubs">Median Shrubs</span>
+                <span class="mini-val" id="inspectorShrubs">56</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-lbl" id="lblSegSlots">Planting Slots</span>
+                <span class="mini-val highlight-green" id="inspectorSlots">105 slots</span>
+              </div>
+            </div>
+
+            <!-- Species Diversity & Santamour Rule Alert -->
+            <div class="diversity-card">
+              <div class="card-head">
+                <span class="card-lbl" id="lblDiversityRule">Urban Forestry Rule (Santamour 10-20-30)</span>
+                <span class="diversity-status pass" id="diversityStatusBadge">Compliant</span>
+              </div>
+              <div id="diversityAlertBox" class="diversity-alert-box hidden">
+                <i data-lucide="alert-triangle"></i>
+                <span id="diversityAlertText">Neem exceeds 15% threshold in this segment.</span>
+              </div>
+              <div class="species-bar-container">
+                <div class="species-bar" id="speciesBar">
+                  <!-- Dynamic bar segments -->
+                </div>
+              </div>
+              <div class="species-legend" id="speciesLegend">
+                <!-- Dynamic legend -->
+              </div>
+            </div>
+
+            <!-- Explainable Recommendation Card -->
+            <div class="recommendation-card">
+              <div class="rec-header">
+                <i data-lucide="sparkles" class="rec-icon"></i>
+                <h4 class="rec-title" id="lblRecTitle">Explainable Planting Prescription</h4>
+              </div>
+              <p class="rec-body" id="inspectorRecText">
+                Critical canopy deficit. Plant 105 native shade trees along outer road verges.
+              </p>
+
+              <div class="species-pills-wrap">
+                <span class="section-sublbl" id="lblPrescribedSpecies">Prescribed Native Species:</span>
+                <div class="pills-list" id="inspectorSpeciesPills">
+                  <span class="pill-tag">Neem (Azadirachta indica)</span>
+                  <span class="pill-tag">Karanj (Millettia pinnata)</span>
+                  <span class="pill-tag">Jamun (Syzygium cumini)</span>
+                </div>
+              </div>
+
+              <div class="prohibited-note">
+                <i data-lucide="shield-alert"></i>
+                <span id="lblProhibitedNote">Prohibited: Eucalyptus (water drain) & Conocarpus (pavement root damage)</span>
+              </div>
+            </div>
+
+            <!-- Export Actions -->
+            <div class="inspector-actions">
+              <button id="btnExportCsv" class="action-btn outline">
+                <i data-lucide="file-spreadsheet"></i>
+                <span id="btnExportCsvLabel">Export Segment CSV</span>
+              </button>
+              <button id="btnExportAudit" class="action-btn solid">
+                <i data-lucide="printer"></i>
+                <span id="btnExportAuditLabel">Print Audit Summary</span>
+              </button>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+      <!-- View 2: Pilgrim Shade & Help Mobile-First View -->
+      <section id="viewPilgrim" class="view-panel">
+        <div class="pilgrim-layout">
+
+          <!-- Left Pilgrim Interactive Map & Heat Tracker -->
+          <div class="pilgrim-interactive-pane">
+
+            <!-- Route Heat-Risk Ribbon (Interactive Segment Bar) -->
+            <div class="route-tracker-card">
+              <div class="route-tracker-header">
+                <div class="route-title-group">
+                  <i data-lucide="thermometer-sun" class="sun-icon"></i>
+                  <span class="route-tracker-title" id="lblRouteTrackerTitle">Ujjain – Indore Highway Shade & Heat Corridor</span>
+                </div>
+                <span class="route-extents">उज्जैन (0 KM) &rarr; इंदौर (15 KM)</span>
+              </div>
+
+              <!-- Visual Heat Bar with 30 Clickable Segment Bars -->
+              <div class="heat-bar" id="heatBarTrack">
+                <!-- Generated dynamically via JS -->
+              </div>
+              <div class="heat-bar-labels">
+                <span>KM 0.0 (Ujjain)</span>
+                <span id="heatBarMidpoint">KM 7.5 (Sanwer Road)</span>
+                <span>KM 15.0</span>
+              </div>
+            </div>
+
+            <!-- Live Pilgrim Map Container -->
+            <div class="pilgrim-map-wrapper">
+              <div id="pilgrimMap" class="map-container"></div>
+
+              <!-- Floating Quick Filters -->
+              <div class="pilgrim-quick-filters">
+                <button class="filter-chip active" data-filter="all" id="fltAll">
+                  <i data-lucide="layers"></i>
+                  <span id="fltAllLabel">सभी (All)</span>
+                </button>
+                <button class="filter-chip" data-filter="shade" id="fltShade">
+                  <i data-lucide="trees"></i>
+                  <span id="fltShadeLabel">छाया (Shade)</span>
+                </button>
+                <button class="filter-chip" data-filter="water" id="fltWater">
+                  <i data-lucide="droplet"></i>
+                  <span id="fltWaterLabel">शीतल जल (Water)</span>
+                </button>
+                <button class="filter-chip" data-filter="medical" id="fltMedical">
+                  <i data-lucide="activity"></i>
+                  <span id="fltMedicalLabel">चिकित्सा (Medical)</span>
+                </button>
+                <button class="filter-chip" data-filter="shade_hub" id="fltRest">
+                  <i data-lucide="home"></i>
+                  <span id="fltRestLabel">विश्राम (Shelter)</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Pilgrim Guidance & Amenity List -->
+          <aside class="pilgrim-guide-pane">
+
+            <!-- Real-time Location Heat Status Banner -->
+            <div class="heat-alert-banner" id="pilgrimAlertBanner">
+              <div class="alert-icon-wrap">
+                <i data-lucide="sun" id="pilgrimSunIcon"></i>
+              </div>
+              <div class="alert-text-wrap">
+                <span class="alert-tag" id="pilgrimAlertTag">वर्तमान स्थिति (Current Segment)</span>
+                <h3 class="alert-headline" id="pilgrimAlertHead">KM 1.5 - 2.0: अत्यधिक धूप क्षेत्र</h3>
+                <p class="alert-desc" id="pilgrimAlertDesc">
+                  यहाँ छाया केवल 4.8% है। कृपया जल साथ रखें। अगला शीतल जल केंद्र 180 मीटर की दूरी पर है।
+                </p>
+              </div>
+            </div>
+
+            <!-- Closest Amenity Cards -->
+            <div class="amenities-feed-header">
+              <h4 id="lblNearestAmenities">नजदीकी सिंहस्थ सेवा केंद्र (Nearby Help Points)</h4>
+              <span class="live-pill" id="lblLiveStatus">24x7 सक्रिय</span>
+            </div>
+
+            <div class="amenities-list" id="amenitiesFeed">
+              <!-- Dynamically populated amenity cards -->
+            </div>
+
+            <!-- Emergency Helpline Callout -->
+            <div class="emergency-footer">
+              <div class="emergency-title">
+                <i data-lucide="phone-call"></i>
+                <span id="lblEmergencyCall">सिंहस्थ आपातकालीन हेल्पलाइन (Toll-Free SOS)</span>
+              </div>
+              <div class="emergency-buttons">
+                <a href="tel:108" class="sos-btn red">
+                  <i data-lucide="ambulance"></i>
+                  <span>108 एम्बुलेंस</span>
+                </a>
+                <a href="tel:112" class="sos-btn blue">
+                  <i data-lucide="shield"></i>
+                  <span>112 पुलिस सहायता</span>
+                </a>
+              </div>
+            </div>
+
+          </aside>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Application Logic -->
+  <script src="/static/app.js"></script>
+</body>
+</html>
